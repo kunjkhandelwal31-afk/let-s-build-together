@@ -62,7 +62,7 @@ const HavanDetailPage = () => {
             {/* Description */}
             <section>
               <h2 className="text-2xl font-bold text-foreground mb-4">
-                विस्तृत <span className="text-gradient-golden">जानकारी</span>
+                परिचय एवं <span className="text-gradient-golden">महत्व</span>
               </h2>
               <div className="text-muted-foreground leading-relaxed space-y-4">
                 <p>{havan.longDescription || havan.description}</p>
@@ -82,6 +82,43 @@ const HavanDetailPage = () => {
                 )}
               </div>
             </section>
+
+            {/* What is it */}
+            {havan.whatIsIt && (
+              <section>
+                <h2 className="text-2xl font-bold text-foreground mb-4">
+                  यह हवन <span className="text-gradient-golden">क्या है?</span>
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">{havan.whatIsIt}</p>
+              </section>
+            )}
+
+            {/* Why performed */}
+            {havan.whyPerformed && (
+              <section>
+                <h2 className="text-2xl font-bold text-foreground mb-4">
+                  किस उद्देश्य से <span className="text-gradient-golden">कराया जाता है?</span>
+                </h2>
+                <p className="text-muted-foreground leading-relaxed">{havan.whyPerformed}</p>
+              </section>
+            )}
+
+            {/* Features */}
+            {havan.features && havan.features.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-bold text-foreground mb-4">
+                  मुख्य <span className="text-gradient-golden">विशेषताएँ</span>
+                </h2>
+                <ul className="space-y-3">
+                  {havan.features.map((f) => (
+                    <li key={f} className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span className="text-foreground">{f}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             {/* Benefits */}
             <section>
@@ -104,37 +141,11 @@ const HavanDetailPage = () => {
               </ul>
             </section>
 
-            {/* Vidhi */}
-            {havan.vidhiDetails && havan.vidhiDetails.length > 0 && (
-              <section>
-                <h2 className="text-2xl font-bold text-foreground mb-4">
-                  हवन <span className="text-gradient-golden">विधि</span>
-                </h2>
-                <Accordion type="single" collapsible className="space-y-3">
-                  {havan.vidhiDetails.map((step, i) => (
-                    <AccordionItem
-                      key={step.title}
-                      value={`step-${i}`}
-                      className="bg-card border border-border rounded-xl px-4"
-                    >
-                      <AccordionTrigger className="text-left font-bold text-foreground">
-                        <span className="text-accent mr-2">{String(i + 1).padStart(2, "0")}</span>
-                        {step.title}
-                      </AccordionTrigger>
-                      <AccordionContent className="text-sm md:text-base text-muted-foreground leading-relaxed">
-                        {step.text}
-                      </AccordionContent>
-                    </AccordionItem>
-                  ))}
-                </Accordion>
-              </section>
-            )}
-
             {/* Samagri & notes */}
             {(havan.samagri || havan.notes) && (
               <section>
                 <h2 className="text-2xl font-bold text-foreground mb-4">
-                  आवश्यक सामग्री एवं <span className="text-gradient-golden">महत्वपूर्ण बातें</span>
+                  हवन सामग्री एवं <span className="text-gradient-golden">महत्वपूर्ण बातें</span>
                 </h2>
                 <ul className="space-y-3">
                   {[...(havan.samagri || []), ...(havan.notes || [])].map((s) => (
@@ -146,6 +157,46 @@ const HavanDetailPage = () => {
                 </ul>
               </section>
             )}
+
+            {/* Vidhi — plain content, always visible */}
+            {havan.vidhiDetails && havan.vidhiDetails.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-bold text-foreground mb-4">
+                  🔥 हवन <span className="text-gradient-golden">विधि</span>
+                </h2>
+                <div className="space-y-4">
+                  {havan.vidhiDetails.map((step, i) => (
+                    <div key={step.title} className="bg-card border border-border rounded-xl p-4">
+                      <h3 className="font-bold text-foreground mb-2">
+                        <span className="text-accent mr-2">{String(i + 1).padStart(2, "0")}</span>
+                        {step.title}
+                      </h3>
+                      <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                        {step.text}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {/* Yajman info */}
+            {havan.yajmanInfo && havan.yajmanInfo.length > 0 && (
+              <section>
+                <h2 className="text-2xl font-bold text-foreground mb-4">
+                  यजमान के लिए <span className="text-gradient-golden">विशेष जानकारी</span>
+                </h2>
+                <ul className="space-y-3">
+                  {havan.yajmanInfo.map((y) => (
+                    <li key={y} className="flex items-start gap-3">
+                      <CheckCircle className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                      <span className="text-foreground text-sm md:text-base">{y}</span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
 
             {/* Mobile CTA */}
             <section className="md:hidden">
