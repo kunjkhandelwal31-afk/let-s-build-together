@@ -152,10 +152,10 @@ function Index() {
           </div>
           <div className="mt-16 grid gap-8 md:grid-cols-2">
             {[
-              { name: "Payflow", category: "Fintech App", color: "bg-emerald-50" },
-              { name: "Northwind", category: "E-commerce", color: "bg-amber-50" },
-              { name: "Lumina", category: "AI Platform", color: "bg-violet-50" },
-              { name: "Terra", category: "Sustainability Brand", color: "bg-rose-50" },
+              { name: "Payflow", category: "Fintech App", color: "bg-secondary/60" },
+              { name: "Northwind", category: "E-commerce", color: "bg-primary/10" },
+              { name: "Lumina", category: "AI Platform", color: "bg-accent" },
+              { name: "Terra", category: "Sustainability Brand", color: "bg-muted" },
             ].map((project) => (
               <div
                 key={project.name}
