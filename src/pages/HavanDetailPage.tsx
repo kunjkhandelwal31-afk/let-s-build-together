@@ -4,7 +4,7 @@ import { havans } from "@/data/havans";
 import { Clock, CheckCircle, ArrowRight, Shield, Star, Users, ChevronLeft } from "lucide-react";
 import NotFound from "./NotFound";
 import ContactStrip from "@/components/ContactStrip";
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+
 
 const HavanDetailPage = () => {
   const { id } = useParams<{ id: string }>();
