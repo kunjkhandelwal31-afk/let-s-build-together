@@ -15,6 +15,14 @@ export interface Havan {
   name: string;
   description: string;
   longDescription?: string;
+  /** यह हवन क्या है? */
+  whatIsIt?: string;
+  /** किस उद्देश्य से कराया जाता है? */
+  whyPerformed?: string;
+  /** मुख्य विशेषताएँ */
+  features?: string[];
+  /** यजमान के लिए विशेष जानकारी */
+  yajmanInfo?: string[];
   /** मुख्य आध्यात्मिक/पारंपरिक उद्देश्य */
   purpose?: string;
   benefits: string[];
