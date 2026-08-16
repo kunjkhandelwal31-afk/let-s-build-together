@@ -9,8 +9,14 @@ import HavanRemovesNegativeEnergy from "@/content/blog/HavanRemovesNegativeEnerg
 import BestBaglamukhiPanditGuide from "@/content/blog/BestBaglamukhiPanditGuide";
 import NalkhedaBaglamukhiMandirGuide from "@/content/blog/NalkhedaBaglamukhiMandirGuide";
 import BaglamukhiAnushthanVsHavan from "@/content/blog/BaglamukhiAnushthanVsHavan";
+import MaaBaglamukhiBestPanditKyon from "@/content/blog/MaaBaglamukhiBestPanditKyon";
+import CourtCaseMeinBaglamukhiHavan from "@/content/blog/CourtCaseMeinBaglamukhiHavan";
+import BaglamukhiHavanSamagriAurTaiyari from "@/content/blog/BaglamukhiHavanSamagriAurTaiyari";
 
 const contentMap = {
+  "maa-baglamukhi-best-pandit-kyon": MaaBaglamukhiBestPanditKyon,
+  "court-case-mein-baglamukhi-havan": CourtCaseMeinBaglamukhiHavan,
+  "baglamukhi-havan-samagri-taiyari": BaglamukhiHavanSamagriAurTaiyari,
   "baglamukhi-havan-benefits": BaglamukhiHavanBenefits,
   "lal-mirch-havan-importance": LalMirchHavanImportance,
   "havan-removes-negative-energy": HavanRemovesNegativeEnergy,
