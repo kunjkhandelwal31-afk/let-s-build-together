@@ -12,10 +12,40 @@ export interface BlogPost {
     | "havan-removes-negative-energy"
     | "best-baglamukhi-pandit-kaise-chune"
     | "nalkheda-baglamukhi-mandir-guide"
-    | "baglamukhi-anushthan-vs-havan";
+    | "baglamukhi-anushthan-vs-havan"
+    | "maa-baglamukhi-best-pandit-kyon"
+    | "court-case-mein-baglamukhi-havan"
+    | "baglamukhi-havan-samagri-taiyari";
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "maa-baglamukhi-best-pandit-kyon",
+    title: "Maa Baglamukhi Best Pandit — पहचान, सेवाएँ एवं उपासना विधि",
+    description: "Maa Baglamukhi best pandit की पहचान कैसे करें, कौन-से हवन एवं अनुष्ठान कराए जाते हैं और यजमान की भूमिका क्या है — पूरी जानकारी।",
+    date: "2026-08-16",
+    readTime: "6 मिनट",
+    keywords: "maabaglamukhibestpandit, maa baglamukhi best pandit, best baglamukhi pandit, baglamukhi pandit ji, maa baglamukhi pandit",
+    contentKey: "maa-baglamukhi-best-pandit-kyon",
+  },
+  {
+    slug: "court-case-mein-baglamukhi-havan",
+    title: "Court Case में बगलामुखी हवन — संकल्प, विधि एवं सही भाव",
+    description: "कोर्ट केस से जुड़ा बगलामुखी हवन किस भाव से कराया जाता है, विधि का क्रम, उपयुक्त समय एवं आवश्यक स्पष्टीकरण।",
+    date: "2026-08-16",
+    readTime: "5 मिनट",
+    keywords: "court case havan, baglamukhi havan for court case, mukadma havan, vijay prapti havan, baglamukhi pandit",
+    contentKey: "court-case-mein-baglamukhi-havan",
+  },
+  {
+    slug: "baglamukhi-havan-samagri-taiyari",
+    title: "बगलामुखी हवन सामग्री एवं यजमान की तैयारी — पूरी सूची",
+    description: "बगलामुखी हवन में कौन-सी सामग्री लगती है, यजमान को क्या तैयारी करनी चाहिए और दूरस्थ यजमान के लिए क्या व्यवस्था है।",
+    date: "2026-08-16",
+    readTime: "5 मिनट",
+    keywords: "baglamukhi havan samagri, havan samagri list, baglamukhi puja vidhi, maa baglamukhi havan, havan booking",
+    contentKey: "baglamukhi-havan-samagri-taiyari",
+  },
   {
     slug: "best-baglamukhi-pandit-kaise-chune",
     title: "Best Baglamukhi Pandit कैसे चुनें — 5 व्यावहारिक कसौटियाँ",
