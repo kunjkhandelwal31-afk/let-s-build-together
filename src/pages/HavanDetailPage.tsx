@@ -4,6 +4,7 @@ import { havans } from "@/data/havans";
 import { Clock, CheckCircle, ArrowRight, Shield, Star, Users, ChevronLeft } from "lucide-react";
 import NotFound from "./NotFound";
 import ContactStrip from "@/components/ContactStrip";
+import Seo from "@/components/Seo";
 
 
 const HavanDetailPage = () => {
@@ -18,11 +19,22 @@ const HavanDetailPage = () => {
 
   return (
     <main className="pb-16">
+      <Seo
+        title={`${havan.name} | विधि, अवधि एवं बुकिंग`}
+        description={`${havan.description} नलखेड़ा (म.प्र.) के अनुभवी पंडितों द्वारा ${havan.name} की विधि, अवधि एवं बुकिंग की पूरी जानकारी।`.slice(0, 158)}
+        path={`/havan/${havan.id}`}
+        type="article"
+        breadcrumbs={[
+          { name: "होम", path: "/" },
+          { name: "हवन प्रकार", path: "/havan-types" },
+          { name: havan.name, path: `/havan/${havan.id}` },
+        ]}
+      />
       {/* Hero Image - clean, no overlay */}
       <section className="w-full">
         <img
           src={havan.image}
-          alt={havan.name}
+          alt={`${havan.name} — नलखेड़ा में माँ बगलामुखी हवन विधि`}
           className="w-full h-auto max-h-[60vh] object-cover block"
         />
       </section>

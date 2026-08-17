@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Eye, Flame, Volume2 } from "lucide-react";
 import ContactStrip from "@/components/ContactStrip";
+import Seo from "@/components/Seo";
 import darshan1 from "@/assets/darshan-1.webp";
 import darshan2 from "@/assets/darshan-2.webp";
 import darshan3 from "@/assets/darshan-3.webp";
@@ -17,6 +18,12 @@ const gallery = [
 const LiveDarshanPage = () => {
   return (
     <main>
+      <Seo
+        title="लाइव दर्शन | माँ बगलामुखी मंदिर नलखेड़ा"
+        description="माँ बगलामुखी मंदिर नलखेड़ा (म.प्र.) के दिव्य दर्शन एवं हवन की झलकियाँ — ऑनलाइन दर्शन और हवन बुकिंग की जानकारी।"
+        path="/live-darshan"
+        breadcrumbs={[{ name: "होम", path: "/" }, { name: "लाइव दर्शन", path: "/live-darshan" }]}
+      />
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[320px] flex items-center justify-center overflow-hidden">
         <img src={heroImg} alt="माँ बगलामुखी मंदिर" className="absolute inset-0 w-full h-full object-cover" width={1920} height={640} />
