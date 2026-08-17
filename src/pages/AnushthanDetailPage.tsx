@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { BookOpen, ArrowRight, CheckCircle, ChevronLeft } from "lucide-react";
 import { anushthans } from "@/data/anushthans";
 import NotFound from "./NotFound";
+import Seo from "@/components/Seo";
 
 const AnushthanDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -16,6 +17,17 @@ const AnushthanDetailPage = () => {
 
   return (
     <main className="py-10 pb-24 yantra-bg" style={{ background: '#8B0000' }}>
+      <Seo
+        title={`${a.title} | माँ बगलामुखी मंत्र-जप अनुष्ठान`}
+        description={`${a.title} — नलखेड़ा (म.प्र.) के अनुभवी पंडितों द्वारा माँ बगलामुखी मंत्र-जप अनुष्ठान की विधि, अवधि एवं बुकिंग जानकारी।`.slice(0, 158)}
+        path={`/anushthan/${a.id}`}
+        type="article"
+        breadcrumbs={[
+          { name: "होम", path: "/" },
+          { name: "अनुष्ठान", path: "/anushthan" },
+          { name: a.title, path: `/anushthan/${a.id}` },
+        ]}
+      />
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <Link
