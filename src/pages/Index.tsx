@@ -52,8 +52,11 @@ const Index = () => {
   return (
     <main className="pb-16">
       <Helmet>
-        <title>Baglamukhi Best Pandit | Maa Baglamukhi Havan & Anushthan</title>
-        <meta name="description" content="माँ बगलामुखी हवन, अनुष्ठान एवं पूजा — नलखेड़ा (म.प्र.) सिद्धपीठ के अनुभवी बगलामुखी पंडित द्वारा विधि-विधान सहित। ऑनलाइन हवन बुकिंग उपलब्ध।" />
+        <title>माँ बगलामुखी हवन एवं अनुष्ठान | Best Pandit</title>
+        <meta name="description" content="माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान अनुभवी पंडितों द्वारा। ऑनलाइन एवं प्रत्यक्ष हवन बुक करें और माँ बगलामुखी की आराधना से जुड़ें।" />
+        <meta property="og:title" content="माँ बगलामुखी हवन एवं अनुष्ठान | Best Pandit" />
+        <meta property="og:description" content="माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान अनुभवी पंडितों द्वारा। ऑनलाइन एवं प्रत्यक्ष हवन बुक करें और माँ बगलामुखी की आराधना से जुड़ें।" />
+        <meta property="og:url" content="https://maabaglamukhibestpandit.com/" />
         <link rel="canonical" href="https://maabaglamukhibestpandit.com/" />
       </Helmet>
       <HeroSection />
