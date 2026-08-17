@@ -25,9 +25,10 @@ const HeroSection = () => {
             style={{ color: '#FFD700' }}
           >
             मां बगलामुखी हवन सेवा{" "}
-            <span className="text-white block text-xl md:text-2xl lg:text-3xl mt-2 font-bold">(Maa Baglamukhi Hawan Service)</span>
+            <span className="text-white block text-xl md:text-2xl lg:text-3xl mt-2 font-bold">Maa Baglamukhi Best Pandit</span>
           </h1>
-          <p className="text-sm text-white/70">हवन पंडित बुकिंग • विश्वभर में ऑनलाइन सेवा उपलब्ध</p>
+          <p className="text-sm text-white/70">नलखेड़ा के अनुभवी बगलामुखी पंडित जी • हवन बुकिंग • विश्वभर में ऑनलाइन सेवा</p>
+
 
           <p className="text-base md:text-lg leading-relaxed text-white/85">
             अनुभवी पंडित जी द्वारा बगलामुखी पूजा, हवन एवं अनुष्ठान बुक करें।
