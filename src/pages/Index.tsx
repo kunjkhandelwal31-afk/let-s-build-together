@@ -52,9 +52,9 @@ const Index = () => {
   return (
     <main className="pb-16">
       <Helmet>
-        <title>माँ बगलामुखी हवन एवं अनुष्ठान | Best Pandit</title>
+        <title>Maa Baglamukhi Havan & Anushthan | Best Pandit Nalkheda</title>
         <meta name="description" content="माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान अनुभवी पंडितों द्वारा। ऑनलाइन एवं प्रत्यक्ष हवन बुक करें और माँ बगलामुखी की आराधना से जुड़ें।" />
-        <meta property="og:title" content="माँ बगलामुखी हवन एवं अनुष्ठान | Best Pandit" />
+        <meta property="og:title" content="Maa Baglamukhi Havan & Anushthan | Best Pandit Nalkheda" />
         <meta property="og:description" content="माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान अनुभवी पंडितों द्वारा। ऑनलाइन एवं प्रत्यक्ष हवन बुक करें और माँ बगलामुखी की आराधना से जुड़ें।" />
         <meta property="og:url" content="https://maabaglamukhibestpandit.com/" />
         <link rel="canonical" href="https://maabaglamukhibestpandit.com/" />
@@ -65,7 +65,7 @@ const Index = () => {
       <section className="py-8" style={{ background: '#5A0000' }}>
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h1 className="text-2xl md:text-4xl font-extrabold text-golden-shadow" style={{ color: '#FFD700' }}>
-            Baglamukhi Havan & Anushthan Booking | Maa Baglamukhi Puja Services
+            माँ बगलामुखी हवन एवं अनुष्ठान — नलखेड़ा
           </h1>
           <p className="text-white/85 mt-3 text-sm md:text-base">
             अनुभवी पंडितों द्वारा <strong>baglamukhi havan</strong>, <strong>lal mirch havan</strong>, <strong>baglamukhi anushthan</strong> एवं
