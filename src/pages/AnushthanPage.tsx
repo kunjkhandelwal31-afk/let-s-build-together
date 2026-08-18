@@ -42,7 +42,7 @@ const faqs = [
 const AnushthanPage = () => {
   return (
     <main className="py-16 pb-24 yantra-bg" style={{ background: '#8B0000' }}>
-      <Seo title="Baglamukhi Anushthan Booking | 3 to 11 Day Puja" description="Detailed Baglamukhi Anushthan service in Nalkheda with 3, 5, 7 and 11 day mantra jaap, puja, havan and booking guidance." path="/anushthan" keywords="baglamukhi anushthan, baglamukhi puja, baglamukhi puja booking online, pandit for havan, havan booking" />
+      <Seo title="Maa Baglamukhi Mantra Jap Anushthan | Best Pandit" description="Detailed Baglamukhi Anushthan service in Nalkheda with 3, 5, 7 and 11 day mantra jaap, puja, havan and booking guidance." path="/anushthan" keywords="baglamukhi anushthan, baglamukhi puja, baglamukhi puja booking online, pandit for havan, havan booking" />
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: '#FFD700' }}>बगलामुखी अनुष्ठान सेवा</h1>

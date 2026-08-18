@@ -15,12 +15,21 @@ const HavanDetailPage = () => {
     window.scrollTo(0, 0);
   }, [id]);
 
+  const seoTitles: Record<string, string> = {
+    shanti: "Maa Baglamukhi General Havan | Best Pandit",
+    "vijay-prapti": "Maa Baglamukhi Special Havan | Best Pandit",
+    "dhan-prapti": "Maa Baglamukhi Mahavishesh Havan | Best Pandit",
+    "lal-mirch": "Maa Baglamukhi Lal Mirchi Havan | Best Pandit",
+    "shatru-nash": "Maa Baglamukhi Shatru Nash Havan | Best Pandit",
+    "sarv-karya-siddhi": "Maa Baglamukhi Sarv Karya Siddhi Havan | Best Pandit",
+  };
+
   if (!havan) return <NotFound />;
 
   return (
     <main className="pb-16">
       <Seo
-        title={`${havan.name} | विधि, अवधि एवं बुकिंग`}
+        title={seoTitles[havan.id] ?? `${havan.name} | Maa Baglamukhi Best Pandit`}
         description={`${havan.description} नलखेड़ा (म.प्र.) के अनुभवी पंडितों द्वारा ${havan.name} की विधि, अवधि एवं बुकिंग की पूरी जानकारी।`.slice(0, 158)}
         path={`/havan/${havan.id}`}
         type="article"
