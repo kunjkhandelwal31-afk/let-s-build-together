@@ -18,7 +18,7 @@ const AnushthanDetailPage = () => {
   return (
     <main className="py-10 pb-24 yantra-bg" style={{ background: '#8B0000' }}>
       <Seo
-        title={`${a.title} | माँ बगलामुखी मंत्र-जप अनुष्ठान`}
+        title={`${a.title} | Maa Baglamukhi Mantra Jap Anushthan`}
         description={`${a.title} — नलखेड़ा (म.प्र.) के अनुभवी पंडितों द्वारा माँ बगलामुखी मंत्र-जप अनुष्ठान की विधि, अवधि एवं बुकिंग जानकारी।`.slice(0, 158)}
         path={`/anushthan/${a.id}`}
         type="article"
