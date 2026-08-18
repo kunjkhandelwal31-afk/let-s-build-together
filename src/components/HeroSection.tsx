@@ -20,13 +20,13 @@ const HeroSection = () => {
       {/* Content Below Video */}
       <div className="py-10 md:py-14" style={{ background: '#6B0000' }}>
         <div className="container mx-auto px-4 max-w-2xl text-center space-y-5">
-          <h1
+          <p
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-golden-shadow"
             style={{ color: '#FFD700' }}
           >
             मां बगलामुखी हवन सेवा{" "}
             <span className="text-white block text-xl md:text-2xl lg:text-3xl mt-2 font-bold">Maa Baglamukhi Best Pandit</span>
-          </h1>
+          </p>
           <p className="text-sm text-white/70">नलखेड़ा के अनुभवी बगलामुखी पंडित जी • हवन बुकिंग • विश्वभर में ऑनलाइन सेवा</p>
 
 
