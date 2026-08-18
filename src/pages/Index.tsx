@@ -114,7 +114,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: '#FFD700' }}>
-              🔥 हवन सेवाएं
+              माँ बगलामुखी हवन सेवाएँ
             </h2>
             <p className="text-white/80 max-w-xl mx-auto">
               माँ बगलामुखी की कृपा से जीवन की हर समस्या का समाधान — अनुभवी पंडित जी द्वारा विधिवत हवन
@@ -151,7 +151,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: '#FFD700' }}>
-              📿 अनुष्ठान सेवाएं
+              माँ बगलामुखी मंत्र-जप अनुष्ठान
             </h2>
             <p className="text-white/70 max-w-2xl mx-auto">
               गहन साधना और विशेष अनुष्ठान — माँ बगलामुखी की शक्ति से जीवन की हर कठिनाई का समाधान।
@@ -337,7 +337,7 @@ const Index = () => {
 
             {/* 6. Process */}
             <article className="space-y-4">
-              <h2 className="text-2xl md:text-3xl font-bold" style={{ color: '#FFD700' }}>हवन की विस्तृत विधि</h2>
+              <h2 className="text-2xl md:text-3xl font-bold" style={{ color: '#FFD700' }}>माँ बगलामुखी हवन एवं अनुष्ठान की विधि</h2>
               <ol className="list-decimal pl-6 space-y-1">
                 <li>संकल्प — साधक के नाम, गोत्र एवं कामना के अनुसार।</li>
                 <li>गणपति-कलश पूजन एवं नवग्रह पूजन।</li>
@@ -418,7 +418,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 items-start">
             <div>
               <h2 className="text-3xl font-bold mb-4" style={{ color: '#FFD700' }}>
-                अभी बुकिंग करें
+                माँ बगलामुखी Best Pandit से संपर्क करें
               </h2>
               <p className="text-white/80 mb-6 leading-relaxed">
                 माँ बगलामुखी की कृपा से अपने जीवन की हर समस्या का समाधान पाएं।
