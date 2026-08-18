@@ -52,12 +52,21 @@ const Index = () => {
   return (
     <main className="pb-16">
       <Helmet>
-        <title>Maa Baglamukhi Havan & Anushthan | Best Pandit Nalkheda</title>
-        <meta name="description" content="माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान अनुभवी पंडितों द्वारा। ऑनलाइन एवं प्रत्यक्ष हवन बुक करें और माँ बगलामुखी की आराधना से जुड़ें।" />
-        <meta property="og:title" content="Maa Baglamukhi Havan & Anushthan | Best Pandit Nalkheda" />
-        <meta property="og:description" content="माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान अनुभवी पंडितों द्वारा। ऑनलाइन एवं प्रत्यक्ष हवन बुक करें और माँ बगलामुखी की आराधना से जुड़ें।" />
+        <title>Maa Baglamukhi Best Pandit | Havan &amp; Anushthan</title>
+        <meta name="description" content="माँ बगलामुखी Best Pandit — नलखेड़ा में माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान। सामान्य, विशेष, महाविशेष और लाल मिर्च हवन की जानकारी एवं बुकिंग।" />
+        <meta property="og:title" content="Maa Baglamukhi Best Pandit | Havan & Anushthan" />
+        <meta property="og:description" content="माँ बगलामुखी Best Pandit — नलखेड़ा में माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान। सामान्य, विशेष, महाविशेष और लाल मिर्च हवन की जानकारी एवं बुकिंग।" />
         <meta property="og:url" content="https://maabaglamukhibestpandit.com/" />
+        <meta name="twitter:title" content="Maa Baglamukhi Best Pandit | Havan & Anushthan" />
+        <meta name="twitter:description" content="माँ बगलामुखी Best Pandit — नलखेड़ा में माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान। सामान्य, विशेष, महाविशेष और लाल मिर्च हवन की जानकारी एवं बुकिंग।" />
         <link rel="canonical" href="https://maabaglamukhibestpandit.com/" />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Maa Baglamukhi Best Pandit",
+          alternateName: "Baglamukhi Best Pandit",
+          url: "https://maabaglamukhibestpandit.com/",
+        })}</script>
       </Helmet>
       <HeroSection />
 
@@ -65,12 +74,36 @@ const Index = () => {
       <section className="py-8" style={{ background: '#5A0000' }}>
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h1 className="text-2xl md:text-4xl font-extrabold text-golden-shadow" style={{ color: '#FFD700' }}>
-            माँ बगलामुखी हवन एवं अनुष्ठान — नलखेड़ा
+            Maa Baglamukhi Best Pandit
           </h1>
           <p className="text-white/85 mt-3 text-sm md:text-base">
-            अनुभवी पंडितों द्वारा <strong>baglamukhi havan</strong>, <strong>lal mirch havan</strong>, <strong>baglamukhi anushthan</strong> एवं
-            tantra nivaran हवन — India एवं worldwide booking उपलब्ध।
+            माँ बगलामुखी हवन एवं अनुष्ठान के लिए अनुभवी पंडितों द्वारा धार्मिक विधि एवं श्रद्धा के साथ सेवा।
           </p>
+        </div>
+      </section>
+
+      {/* Homepage intro SEO content */}
+      <section className="py-10" style={{ background: '#6B0000' }}>
+        <div className="container mx-auto px-4 max-w-3xl space-y-4">
+          <h2 className="text-2xl md:text-3xl font-bold" style={{ color: '#FFD700' }}>
+            माँ बगलामुखी Best Pandit
+          </h2>
+          <p className="text-white/85 leading-relaxed">
+            माँ बगलामुखी की आराधना, हवन एवं अनुष्ठान से संबंधित सेवाओं के लिए यह वेबसाइट यजमानों को विभिन्न हवन एवं
+            मंत्र-जप अनुष्ठानों की जानकारी उपलब्ध कराती है। यहाँ सामान्य हवन, विशेष हवन, महाविशेष हवन, लाल मिर्च विशेष हवन
+            तथा माँ बगलामुखी मंत्र-जप अनुष्ठानों की जानकारी और बुकिंग सुविधा उपलब्ध है।
+          </p>
+          <p className="text-white/85 leading-relaxed">
+            नलखेड़ा स्थित माँ बगलामुखी मंदिर से संबंधित धार्मिक सेवाओं और अनुष्ठानों की जानकारी प्राप्त करने के लिए यजमान यहाँ
+            हवन की विधि, अवधि, सामग्री, अनुष्ठान प्रक्रिया और उपलब्ध सेवाओं के बारे में विस्तार से जान सकते हैं।
+          </p>
+          <ul className="list-disc pl-5 space-y-1.5 text-white/85">
+            <li><Link to="/havan/shanti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी सामान्य हवन</Link></li>
+            <li><Link to="/havan/vijay-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी विशेष हवन</Link></li>
+            <li><Link to="/havan/dhan-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी महाविशेष हवन</Link></li>
+            <li><Link to="/havan/lal-mirch" className="underline" style={{ color: '#FFD700' }}>लाल मिर्च विशेष हवन</Link></li>
+            <li><Link to="/anushthan" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी मंत्र-जप अनुष्ठान</Link></li>
+          </ul>
         </div>
       </section>
 
