@@ -52,13 +52,14 @@ const Index = () => {
   return (
     <main className="pb-16">
       <Helmet>
-        <title>Maa Baglamukhi Best Pandit | Havan &amp; Anushthan</title>
-        <meta name="description" content="माँ बगलामुखी Best Pandit — नलखेड़ा में माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान। सामान्य, विशेष, महाविशेष और लाल मिर्च हवन की जानकारी एवं बुकिंग।" />
-        <meta property="og:title" content="Maa Baglamukhi Best Pandit | Havan & Anushthan" />
-        <meta property="og:description" content="माँ बगलामुखी Best Pandit — नलखेड़ा में माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान। सामान्य, विशेष, महाविशेष और लाल मिर्च हवन की जानकारी एवं बुकिंग।" />
+        <title>Maa Baglamukhi Best Pandit | Official Website</title>
+        <meta name="description" content="Maa Baglamukhi Best Pandit के लिए आधिकारिक वेबसाइट। Maa Baglamukhi Best Pandit से जुड़ी पूजा, हवन और अनुष्ठान सेवाओं की जानकारी एवं बुकिंग सुविधा प्राप्त करें।" />
+        <meta property="og:title" content="Maa Baglamukhi Best Pandit" />
+        <meta property="og:description" content="Maa Baglamukhi Best Pandit की आधिकारिक वेबसाइट।" />
         <meta property="og:url" content="https://maabaglamukhibestpandit.com/" />
-        <meta name="twitter:title" content="Maa Baglamukhi Best Pandit | Havan & Anushthan" />
-        <meta name="twitter:description" content="माँ बगलामुखी Best Pandit — नलखेड़ा में माँ बगलामुखी हवन, पूजा एवं मंत्र-जप अनुष्ठान। सामान्य, विशेष, महाविशेष और लाल मिर्च हवन की जानकारी एवं बुकिंग।" />
+        <meta name="twitter:title" content="Maa Baglamukhi Best Pandit" />
+        <meta name="twitter:description" content="Maa Baglamukhi Best Pandit की आधिकारिक वेबसाइट।" />
+
         <link rel="canonical" href="https://maabaglamukhibestpandit.com/" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
