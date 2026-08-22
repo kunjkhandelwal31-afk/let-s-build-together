@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="माँ बगलामुखी" className="h-9 w-9 rounded-full object-contain" />
+            <img src={logo} alt="Maa Baglamukhi Best Pandit logo" className="h-9 w-9 rounded-full object-contain" />
             <span className="text-lg font-bold" style={{ color: '#FFD700' }}>
               माँ बगलामुखी हवन सेवा
             </span>
