@@ -1,0 +1,1 @@
+DELETE FROM public.bookings WHERE name = 'test' AND phone = '999';
