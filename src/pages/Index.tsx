@@ -117,7 +117,7 @@ const Index = () => {
             <li><Link to="/havan/vijay-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी विशेष हवन</Link></li>
             <li><Link to="/havan/dhan-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी महाविशेष हवन</Link></li>
             <li><Link to="/havan/lal-mirch" className="underline" style={{ color: '#FFD700' }}>लाल मिर्च विशेष हवन</Link></li>
-            <li><Link to="/anushthan" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी मंत्र-जप अनुष्ठान</Link></li>
+            <li><Link to="/anushthan" className="underline" style={{ color: '#FFD700' }}>Maa Baglamukhi Best Pandit — मंत्र-जप अनुष्ठान</Link></li>
           </ul>
         </div>
       </section>
@@ -433,7 +433,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 items-start">
             <div>
               <h2 className="text-3xl font-bold mb-4" style={{ color: '#FFD700' }}>
-                माँ बगलामुखी Best Pandit से संपर्क करें
+                Maa Baglamukhi Best Pandit से संपर्क करें
               </h2>
               <p className="text-white/80 mb-6 leading-relaxed">
                 माँ बगलामुखी की कृपा से अपने जीवन की हर समस्या का समाधान पाएं।
