@@ -65,9 +65,10 @@ const Index = () => {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "Maa Baglamukhi Best Pandit",
-          alternateName: "Baglamukhi Best Pandit",
+          alternateName: "Maa Baglamukhi Best Pandit",
           url: "https://maabaglamukhibestpandit.com/",
         })}</script>
+
       </Helmet>
       <HeroSection />
 
