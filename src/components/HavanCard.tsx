@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Clock, ArrowRight, Leaf } from "lucide-react";
+import { Clock, ArrowRight } from "lucide-react";
 import type { Havan } from "@/data/havans";
 
 const HavanCard = ({ havan }: { havan: Havan }) => {
