@@ -86,7 +86,7 @@ const LalMirchHavanPage = () => (
         </p>
 
         <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-3" style={{ color: '#FFD700' }}>
-          Why Choose Our Service — Best Pandit for Lal Mirch Havan
+          Why Choose Our Service — Pandit Rahul Sharma for Lal Mirch Havan
         </h2>
         <p className="text-white/85 leading-relaxed mb-4">
           हम <strong>नलखेड़ा (Nalkheda, Agar Malwa, Madhya Pradesh)</strong> के सिद्ध बगलामुखी मंदिर

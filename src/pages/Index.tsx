@@ -52,21 +52,21 @@ const Index = () => {
   return (
     <main className="pb-16">
       <Helmet>
-        <title>Maa Baglamukhi Best Pandit | Official Website</title>
-        <meta name="description" content="Maa Baglamukhi Best Pandit के लिए आधिकारिक वेबसाइट। Maa Baglamukhi Best Pandit से जुड़ी पूजा, हवन और अनुष्ठान सेवाओं की जानकारी एवं बुकिंग सुविधा प्राप्त करें।" />
-        <meta property="og:title" content="Maa Baglamukhi Best Pandit" />
-        <meta property="og:description" content="Maa Baglamukhi Best Pandit की आधिकारिक वेबसाइट।" />
-        <meta property="og:url" content="https://maabaglamukhibestpandit.com/" />
-        <meta name="twitter:title" content="Maa Baglamukhi Best Pandit" />
-        <meta name="twitter:description" content="Maa Baglamukhi Best Pandit की आधिकारिक वेबसाइट।" />
+        <title>Maa Baglamukhi Nalkheda Havan | Pandit Rahul Sharma</title>
+        <meta name="description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
+        <meta property="og:title" content="Maa Baglamukhi Nalkheda Havan | Pandit Rahul Sharma" />
+        <meta property="og:description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
+        <meta property="og:url" content="https://maabaglamukhinalkhedahavan.com/" />
+        <meta name="twitter:title" content="Maa Baglamukhi Nalkheda Havan | Pandit Rahul Sharma" />
+        <meta name="twitter:description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
 
-        <link rel="canonical" href="https://maabaglamukhibestpandit.com/" />
+        <link rel="canonical" href="https://maabaglamukhinalkhedahavan.com/" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
-          name: "Maa Baglamukhi Best Pandit",
-          alternateName: "Maa Baglamukhi Best Pandit",
-          url: "https://maabaglamukhibestpandit.com/",
+          name: "Maa Baglamukhi Nalkheda Havan",
+          alternateName: "Maa Baglamukhi Nalkheda Havan",
+          url: "https://maabaglamukhinalkhedahavan.com/",
         })}</script>
 
       </Helmet>
@@ -76,10 +76,10 @@ const Index = () => {
       <section className="py-8" style={{ background: '#5A0000' }}>
         <div className="container mx-auto px-4 max-w-3xl text-center">
           <h1 className="text-2xl md:text-4xl font-extrabold text-golden-shadow" style={{ color: '#FFD700' }}>
-            Maa Baglamukhi Best Pandit
+            Maa Baglamukhi Nalkheda Havan
           </h1>
           <p className="text-white/85 mt-3 text-sm md:text-base">
-            Maa Baglamukhi Best Pandit की आधिकारिक वेबसाइट पर आपका स्वागत है। यहाँ Maa Baglamukhi Best Pandit से संबंधित
+            माँ बगलामुखी नलखेड़ा हवन की आधिकारिक वेबसाइट पर आपका स्वागत है। यहाँ माँ बगलामुखी की आराधना से जुड़ी
             धार्मिक सेवाओं, हवन एवं अनुष्ठानों की जानकारी और उपलब्ध बुकिंग सुविधा प्राप्त की जा सकती है।
           </p>
         </div>
@@ -89,7 +89,7 @@ const Index = () => {
       <section className="py-10" style={{ background: '#6B0000' }}>
         <div className="container mx-auto px-4 max-w-3xl space-y-4">
           <h2 className="text-2xl md:text-3xl font-bold" style={{ color: '#FFD700' }}>
-            Maa Baglamukhi Best Pandit के बारे में
+            Maa Baglamukhi Nalkheda Havan के बारे में
           </h2>
           <p className="text-white/85 leading-relaxed">
             यह वेबसाइट माँ बगलामुखी की आराधना, हवन एवं अनुष्ठान से जुड़ी सेवाओं की जानकारी यजमानों तक पहुँचाने के लिए बनाई गई है।
@@ -97,7 +97,7 @@ const Index = () => {
             हवन सम्पन्न कराए जाते हैं।
           </p>
           <h2 className="text-2xl md:text-3xl font-bold pt-2" style={{ color: '#FFD700' }}>
-            Maa Baglamukhi Best Pandit की सेवाएँ
+            Maa Baglamukhi Nalkheda Havan की सेवाएँ
           </h2>
           <p className="text-white/85 leading-relaxed">
             यहाँ सामान्य हवन, विशेष हवन, महाविशेष हवन, लाल मिर्च विशेष हवन तथा माँ बगलामुखी मंत्र-जप अनुष्ठानों की विस्तृत
@@ -105,7 +105,7 @@ const Index = () => {
             जिससे आप अपनी आवश्यकता के अनुसार उपयुक्त अनुष्ठान चुन सकें।
           </p>
           <h2 className="text-2xl md:text-3xl font-bold pt-2" style={{ color: '#FFD700' }}>
-            Maa Baglamukhi Best Pandit से हवन एवं अनुष्ठान
+            हवन एवं अनुष्ठान सेवाएँ
           </h2>
           <p className="text-white/85 leading-relaxed">
             हवन एवं अनुष्ठान यजमान के नाम, गोत्र एवं धर्मसम्मत संकल्प के साथ सम्पन्न कराए जाते हैं। सेवा से जुड़ी पूरी
@@ -117,7 +117,7 @@ const Index = () => {
             <li><Link to="/havan/vijay-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी विशेष हवन</Link></li>
             <li><Link to="/havan/dhan-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी महाविशेष हवन</Link></li>
             <li><Link to="/havan/lal-mirch" className="underline" style={{ color: '#FFD700' }}>लाल मिर्च विशेष हवन</Link></li>
-            <li><Link to="/anushthan" className="underline" style={{ color: '#FFD700' }}>Maa Baglamukhi Best Pandit — मंत्र-जप अनुष्ठान</Link></li>
+            <li><Link to="/anushthan" className="underline" style={{ color: '#FFD700' }}>मंत्र-जप अनुष्ठान — पंडित राहुल शर्मा</Link></li>
           </ul>
         </div>
       </section>
@@ -401,7 +401,7 @@ const Index = () => {
               <p>
                 हम भारत एवं विश्वभर में बगलामुखी हवन, पूजा एवं अनुष्ठान सेवा प्रदान करते हैं। बुकिंग के लिए{" "}
                 <Link to="/havan-booking" className="underline" style={{ color: '#FFD700' }}>online booking page</Link> पर जाएँ या{" "}
-                <Link to="/contact" className="underline" style={{ color: '#FFD700' }}>संपर्क पेज</Link> से जुड़ें। +91 90094 51897 पर कॉल या
+                <Link to="/contact" className="underline" style={{ color: '#FFD700' }}>संपर्क पेज</Link> से जुड़ें। +91 70246 09027 पर कॉल या
                 WhatsApp भी कर सकते हैं — 24 घंटे में हमारी टीम आपसे संपर्क करेगी।
               </p>
 
@@ -410,7 +410,7 @@ const Index = () => {
                 We provide Baglamukhi Havan, Puja and Anushthan services across India and worldwide. To book, visit our{" "}
                 <Link to="/havan-booking" className="underline" style={{ color: '#FFD700' }}>online booking page</Link> or use the{" "}
                 <Link to="/contact" className="underline" style={{ color: '#FFD700' }}>contact page</Link>. You may also call or
-                WhatsApp +91 90094 51897 — our team will respond within 24 hours.
+                WhatsApp +91 70246 09027 — our team will respond within 24 hours.
               </p>
               <p className="text-white/70 text-xs">
                 Service areas: Nalkheda, Agar Malwa, Madhya Pradesh, India — Delhi, Mumbai, Bangalore, Hyderabad, Kolkata,
@@ -433,7 +433,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-10 items-start">
             <div>
               <h2 className="text-3xl font-bold mb-4" style={{ color: '#FFD700' }}>
-                Maa Baglamukhi Best Pandit से संपर्क करें
+                Maa Baglamukhi Nalkheda Havan से संपर्क करें
               </h2>
               <p className="text-white/80 mb-6 leading-relaxed">
                 माँ बगलामुखी की कृपा से अपने जीवन की हर समस्या का समाधान पाएं।
@@ -462,7 +462,7 @@ const Index = () => {
               },
               {
                 q: "Baglamukhi Havan कैसे बुक करें? (How to book Havan?)",
-                a: "आप हमारी वेबसाइट पर ऑनलाइन बुकिंग फ़ॉर्म भरकर या +91 90094 51897 पर कॉल / WhatsApp करके हवन बुक कर सकते हैं। भारत एवं विश्व के किसी भी स्थान से booking उपलब्ध है। 24 घंटे में हमारी टीम संपर्क करेगी।",
+                a: "आप हमारी वेबसाइट पर ऑनलाइन बुकिंग फ़ॉर्म भरकर या +91 70246 09027 पर कॉल / WhatsApp करके हवन बुक कर सकते हैं। भारत एवं विश्व के किसी भी स्थान से booking उपलब्ध है। 24 घंटे में हमारी टीम संपर्क करेगी।",
               },
               {
                 q: "लाल मिर्च हवन किसके लिए होता है? (Who needs Lal Mirch Havan?)",
@@ -478,14 +478,14 @@ const Index = () => {
               },
               {
                 q: "पूजा शुल्क कैसे जानें? (How to know the puja donation?)",
-                a: "पूजा एवं अनुष्ठान का शुल्क सेवा के प्रकार, अवधि, ब्राह्मणों की संख्या एवं सामग्री पर निर्भर करता है। सटीक विवरण एवं मार्गदर्शन हेतु कृपया +91 90094 51897 पर कॉल या WhatsApp करें।",
+                a: "पूजा एवं अनुष्ठान का शुल्क सेवा के प्रकार, अवधि, ब्राह्मणों की संख्या एवं सामग्री पर निर्भर करता है। सटीक विवरण एवं मार्गदर्शन हेतु कृपया +91 70246 09027 पर कॉल या WhatsApp करें।",
               },
               {
                 q: "हवन के बाद क्या मिलता है?",
                 a: "हवन / अनुष्ठान के बाद सम्पूर्ण विधि का video और photo proof, सिद्ध प्रसाद, माँ बगलामुखी का अभिमंत्रित यंत्र और ब्राह्मणों का आशीर्वाद — सब कुछ कूरियर द्वारा आपके घर पहुँचाया जाता है।",
               },
               {
-                q: "Best pandit for Baglamukhi Havan कहाँ मिलेंगे?",
+                q: "Baglamukhi Havan के लिए अनुभवी पंडित कहाँ मिलेंगे?",
                 a: "नलखेड़ा (जिला आगर मालवा, मध्यप्रदेश) के सिद्ध बगलामुखी मंदिर के विद्वान एवं अनुभवी पंडित हमारी सेवा में हैं। 247+ संतुष्ट साधकों ने 4.9/5 की rating दी है।",
               },
             ].map((f) => (

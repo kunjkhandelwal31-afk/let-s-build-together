@@ -10,7 +10,7 @@ const BaglamukhiHavanPage = () => {
         title="Baglamukhi Havan | बगलामुखी हवन — शत्रु नाश, Court Case विजय | बुकिंग"
         description="Book Baglamukhi Havan with experienced pandits at Nalkheda. शत्रु नाश, court case विजय, tantra nivaran, nazar dosh nivaran. India & worldwide havan booking."
         path="/baglamukhi-havan"
-        keywords="baglamukhi havan, baglamukhi havan booking, baglamukhi puja, court case havan, shatru nash havan, vijay prapti havan, best pandit for baglamukhi havan"
+        keywords="baglamukhi havan, baglamukhi havan booking, baglamukhi puja, court case havan, shatru nash havan, vijay prapti havan, baglamukhi havan nalkheda"
       />
       <main className="py-14" style={{ background: '#6B0000', color: 'white' }}>
         <article className="container mx-auto px-4 max-w-3xl">
@@ -91,7 +91,7 @@ const BaglamukhiHavanPage = () => {
           </p>
 
           <h2 className="text-2xl md:text-3xl font-bold mt-8 mb-3" style={{ color: '#FFD700' }}>
-            Why Choose Us — Best Pandit for Baglamukhi Havan
+            Why Choose Us — Pandit Rahul Sharma for Baglamukhi Havan
           </h2>
           <ul className="space-y-2 mb-6">
             {[
@@ -117,7 +117,7 @@ const BaglamukhiHavanPage = () => {
               { q: "Baglamukhi Havan कितने दिन का होता है?", a: "सामान्य बगलामुखी हवन 1-3 घंटे में सम्पन्न होता है। विशेष अनुष्ठान (36,000 मंत्र) 1-2 दिन और सवा लाख या पंचलक्षी अनुष्ठान 1 दिन का होता है।" },
               { q: "क्या Baglamukhi Havan ऑनलाइन करवा सकते हैं?", a: "हाँ, online havan booking उपलब्ध है। हवन नलखेड़ा मंदिर में होता है, आपको live video, photo proof एवं प्रसाद/यंत्र भेजा जाता है।" },
               { q: "Baglamukhi Havan for court case कितना प्रभावी है?", a: "माँ बगलामुखी शत्रु-स्तंभन की देवी हैं। Court case havan से विरोधी पक्ष की वाणी एवं बुद्धि स्तंभित होती है — अनेक साधकों ने अनुकूल निर्णय प्राप्त किया है।" },
-              { q: "Baglamukhi Havan का पूजा शुल्क कैसे जानें?", a: "पूजा शुल्क सेवा के प्रकार, अवधि, ब्राह्मणों की संख्या एवं सामग्री पर निर्भर करता है। सटीक विवरण एवं मार्गदर्शन हेतु कृपया +91 90094 51897 पर कॉल या WhatsApp करें — पूर्ण पारदर्शिता, कोई छुपा शुल्क नहीं।" },
+              { q: "Baglamukhi Havan का पूजा शुल्क कैसे जानें?", a: "पूजा शुल्क सेवा के प्रकार, अवधि, ब्राह्मणों की संख्या एवं सामग्री पर निर्भर करता है। सटीक विवरण एवं मार्गदर्शन हेतु कृपया +91 70246 09027 पर कॉल या WhatsApp करें — पूर्ण पारदर्शिता, कोई छुपा शुल्क नहीं।" },
               { q: "Baglamukhi Havan near me कहाँ होता है?", a: "हमारी सेवा नलखेड़ा (Nalkheda), Agar Malwa, Madhya Pradesh के सिद्ध मंदिर में होती है। Online booking से विश्व के किसी भी स्थान से लाभ उठा सकते हैं।" },
             ].map((f) => (
               <div key={f.q} className="rounded-lg p-5" style={{ background: 'rgba(255,140,0,0.15)', border: '1px solid rgba(255,215,0,0.3)' }}>

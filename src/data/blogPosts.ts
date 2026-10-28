@@ -21,11 +21,11 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "maa-baglamukhi-best-pandit-kyon",
-    title: "Maa Baglamukhi Best Pandit — पहचान, सेवाएँ एवं उपासना विधि",
-    description: "Maa Baglamukhi best pandit की पहचान कैसे करें, कौन-से हवन एवं अनुष्ठान कराए जाते हैं और यजमान की भूमिका क्या है — पूरी जानकारी।",
+    title: "Maa Baglamukhi Nalkheda Havan — पहचान, सेवाएँ एवं उपासना विधि",
+    description: "Maa Baglamukhi Nalkheda Havan की पहचान कैसे करें, कौन-से हवन एवं अनुष्ठान कराए जाते हैं और यजमान की भूमिका क्या है — पूरी जानकारी।",
     date: "2026-08-16",
     readTime: "6 मिनट",
-    keywords: "maabaglamukhibestpandit, maa baglamukhi best pandit, best baglamukhi pandit, baglamukhi pandit ji, maa baglamukhi pandit",
+    keywords: "maabaglamukhinalkhedahavan, maa baglamukhi nalkheda havan, baglamukhi pandit nalkheda, baglamukhi pandit ji, maa baglamukhi pandit",
     contentKey: "maa-baglamukhi-best-pandit-kyon",
   },
   {
@@ -49,10 +49,10 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "best-baglamukhi-pandit-kaise-chune",
     title: "Best Baglamukhi Pandit कैसे चुनें — 5 व्यावहारिक कसौटियाँ",
-    description: "Maa Baglamukhi best pandit कैसे चुनें? अनुभव, विधि की शुद्धता, संकल्प, शुल्क पारदर्शिता और हवन प्रमाण — पूरी व्यावहारिक गाइड।",
+    description: "Maa Baglamukhi Nalkheda Havan कैसे चुनें? अनुभव, विधि की शुद्धता, संकल्प, शुल्क पारदर्शिता और हवन प्रमाण — पूरी व्यावहारिक गाइड।",
     date: "2026-05-12",
     readTime: "6 मिनट",
-    keywords: "maa baglamukhi best pandit, best maa baglamukhi pandit, baglamukhi best pandit, best baglamukhi pandit, baglamukhi pandit",
+    keywords: "maa baglamukhi nalkheda havan, maa baglamukhi nalkheda havan, baglamukhi pandit nalkheda, baglamukhi pandit nalkheda, baglamukhi pandit",
     contentKey: "best-baglamukhi-pandit-kaise-chune",
   },
   {

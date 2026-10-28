@@ -9,7 +9,7 @@ const BestBaglamukhiPanditGuide = () => (
     <p>
       माँ बगलामुखी हवन एवं अनुष्ठान का पूर्ण फल तभी मिलता है जब वह शुद्ध वैदिक विधि से,
       सही संकल्प एवं सही मंत्र संख्या के साथ सम्पन्न कराया जाए। इसीलिए साधक सबसे पहले यही
-      खोजते हैं — <strong style={{ color: '#FFD700' }}>Maa Baglamukhi best pandit</strong> कैसे चुनें।
+      खोजते हैं — <strong style={{ color: '#FFD700' }}>Maa Baglamukhi Nalkheda Havan</strong> कैसे चुनें।
       इस लेख में व्यावहारिक बातें बताई गई हैं जिनसे आप स्वयं परख सकते हैं।
     </p>
 
@@ -52,7 +52,7 @@ const BestBaglamukhiPanditGuide = () => (
     <H2>निष्कर्ष</H2>
     <p>
       अनुभव, विधि की शुद्धता, पारदर्शिता और सीधा संवाद — यही चार कसौटियाँ हैं। इन्हीं
-      आधारों पर पंडित राम शर्मा जी द्वारा हवन एवं अनुष्ठान सेवा उपलब्ध है।{" "}
+      आधारों पर पंडित राहुल शर्मा जी द्वारा हवन एवं अनुष्ठान सेवा उपलब्ध है।{" "}
       <Link to="/havan-booking" className="underline font-semibold" style={{ color: '#FFD700' }}>हवन बुकिंग</Link>{" "}
       अथवा{" "}
       <Link to="/contact" className="underline font-semibold" style={{ color: '#FFD700' }}>संपर्क</Link>{" "}

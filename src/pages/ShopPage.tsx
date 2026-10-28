@@ -51,13 +51,13 @@ const ShopPage = () => {
 
   const buyNow = (product: Product) => {
     const msg = `नमस्ते, मुझे "${product.name}" के बारे में जानकारी चाहिए। कृपया विवरण भेजें।`;
-    window.open(`https://wa.me/919009451897?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/917024609027?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   const enquireViaWhatsApp = () => {
     const items = cart.map((c) => `• ${c.product.name} x${c.quantity}`).join("\n");
     const msg = `नमस्ते, मुझे इन उत्पादों के बारे में जानकारी चाहिए:\n${items}\n\nकृपया विवरण एवं मार्गदर्शन भेजें।`;
-    window.open(`https://wa.me/919009451897?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/917024609027?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   const tagColor = (tag: string) => {
@@ -214,7 +214,7 @@ const ShopPage = () => {
             { q: "डिलीवरी में कितना समय लगता है?", a: "भारत में सामान्यतः 3-7 कार्य दिवस लगते हैं। विवरण हेतु कृपया संपर्क करें।" },
             { q: "क्या ये उत्पाद प्रामाणिक हैं?", a: "हाँ, सभी उत्पाद पंडित जी द्वारा विधिवत अभिमंत्रित एवं सिद्ध किए जाते हैं।" },
             { q: "उत्पाद का उपयोग कैसे करें?", a: "हर उत्पाद के साथ विस्तृत उपयोग विधि दी जाती है। WhatsApp पर भी मार्गदर्शन मिलता है।" },
-            { q: "अधिक जानकारी कैसे प्राप्त करें?", a: "कृपया +91 90094 51897 पर कॉल या WhatsApp करें — हमारी टीम मार्गदर्शन प्रदान करेगी।" },
+            { q: "अधिक जानकारी कैसे प्राप्त करें?", a: "कृपया +91 70246 09027 पर कॉल या WhatsApp करें — हमारी टीम मार्गदर्शन प्रदान करेगी।" },
           ].map((faq, i) => (
             <div key={i} className="bg-card border border-border rounded-lg p-5 mb-3">
               <h3 className="font-bold text-foreground mb-2">{faq.q}</h3>

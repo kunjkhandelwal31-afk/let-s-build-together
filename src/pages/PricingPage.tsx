@@ -88,7 +88,7 @@ const PricingPage = () => {
 
           <p className="text-center text-sm text-muted-foreground max-w-2xl mx-auto mt-8">
             पूजा शुल्क सेवा के प्रकार, अवधि, ब्राह्मणों की संख्या एवं सामग्री पर निर्भर करता है।
-            विस्तृत मार्गदर्शन हेतु +91 90094 51897 पर कॉल या WhatsApp करें।
+            विस्तृत मार्गदर्शन हेतु +91 70246 09027 पर कॉल या WhatsApp करें।
           </p>
 
           <ContactStrip className="mt-12" />

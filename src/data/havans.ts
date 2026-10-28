@@ -34,8 +34,6 @@ export interface Havan {
   samagri?: string[];
   notes?: string[];
   duration: string;
-  /** दक्षिणा (जहाँ लागू हो) */
-  dakshina?: string;
   /** बुकिंग बटन का शीर्षक */
   ctaLabel?: string;
   /** Display label — kept as a contact-us string; no monetary value is exposed sitewide. */
@@ -146,7 +144,6 @@ export const havans: Havan[] = [
     yajmanInfo: [
       "प्रथम बार आराधना कराने वाले यजमानों के लिए उपयुक्त सरल हवन।",
       "संकल्प यजमान के नाम एवं गोत्र के अनुसार लिया जाता है।",
-      "दक्षिणा ₹2,100 निर्धारित है।",
     ],
     benefits: [
       "पारिवारिक सुख-शांति",
@@ -164,7 +161,6 @@ export const havans: Havan[] = [
       { title: "पूर्णाहुति एवं आरती", text: "निर्धारित आहुतियों के बाद पूर्णाहुति, आरती एवं प्रार्थना।" },
     ],
     duration: "लगभग 45 मिनट",
-    dakshina: "₹2,100",
     ctaLabel: "सामान्य हवन बुक करें",
     price: CONTACT_LABEL,
     icon: "🕊️",
@@ -193,7 +189,6 @@ export const havans: Havan[] = [
     yajmanInfo: [
       "संकल्प यजमान के नाम, गोत्र एवं धर्मसम्मत उद्देश्य के अनुसार लिया जाता है।",
       "यह हवन उन यजमानों हेतु उपयुक्त है जो सामान्य हवन से अधिक विस्तृत आराधना कराना चाहते हैं।",
-      "दक्षिणा ₹5,100 निर्धारित है।",
     ],
     benefits: [
       "व्यापार/कार्य बाधाओं के शमन हेतु प्रार्थना",
@@ -214,7 +209,6 @@ export const havans: Havan[] = [
       { title: "पूर्णाहुति एवं आरती", text: "पूर्णाहुति, आरती एवं प्रार्थना से समापन।" },
     ],
     duration: "लगभग 1 घंटा 30 मिनट",
-    dakshina: "₹5,100",
     ctaLabel: "विशेष हवन बुक करें",
     price: CONTACT_LABEL,
     icon: "🏆",
@@ -243,7 +237,6 @@ export const havans: Havan[] = [
     yajmanInfo: [
       "विशिष्ट एवं महत्वपूर्ण संकल्प हेतु उपयुक्त विस्तृत अनुष्ठान।",
       "संकल्प यजमान के नाम, गोत्र एवं विशेष धर्मसम्मत उद्देश्य के अनुसार लिया जाता है।",
-      "दक्षिणा ₹11,000 निर्धारित है।",
     ],
     benefits: [
       "शत्रु स्तंभन हेतु प्रार्थना",
@@ -266,7 +259,6 @@ export const havans: Havan[] = [
       { title: "आशीर्वाद", text: "आचार्य द्वारा यजमान के लिए मंगलकामना एवं आशीर्वचन।" },
     ],
     duration: "लगभग 2 घंटे",
-    dakshina: "₹11,000",
     ctaLabel: "महाविशेष हवन बुक करें",
     price: CONTACT_LABEL,
     icon: "🔱",
