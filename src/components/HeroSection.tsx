@@ -24,7 +24,7 @@ const HeroSection = () => {
             className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight text-golden-shadow"
             style={{ color: '#FFD700' }}
           >
-            मां बगलामुखी हवन सेवा{" "}
+            माँ बगलामुखी नलखेड़ा हवन{" "}
             <span className="text-white block text-xl md:text-2xl lg:text-3xl mt-2 font-bold">Maa Baglamukhi Nalkheda Havan</span>
           </p>
           <p className="text-sm text-white/70">नलखेड़ा के अनुभवी बगलामुखी पंडित जी • हवन बुकिंग • विश्वभर में ऑनलाइन सेवा</p>

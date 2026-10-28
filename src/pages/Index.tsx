@@ -129,7 +129,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-3" style={{ color: '#FFD700' }}>
-              माँ बगलामुखी हवन सेवाएँ
+              माँ बगलामुखी नलखेड़ा हवन सेवाएँ
             </h2>
             <p className="text-white/80 max-w-xl mx-auto">
               माँ बगलामुखी की कृपा से जीवन की हर समस्या का समाधान — अनुभवी पंडित जी द्वारा विधिवत हवन
