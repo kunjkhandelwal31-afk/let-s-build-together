@@ -9,10 +9,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Flame className="h-6 w-6" style={{ color: '#FFD700' }} />
-              <span className="text-lg font-bold" style={{ color: '#FFD700' }}>माँ बगलामुखी हवन सेवा</span>
+              <span className="text-lg font-bold" style={{ color: '#FFD700' }}>माँ बगलामुखी नलखेड़ा हवन</span>
             </div>
             <p className="text-sm leading-relaxed text-white/70">
-              अनुभवी पंडित जी द्वारा विधिवत माँ बगलामुखी हवन सेवा। शत्रु नाश, विजय प्राप्ति और जीवन में सफलता के लिए संपर्क करें।
+              अनुभवी पंडित जी द्वारा विधिवत माँ बगलामुखी नलखेड़ा हवन। शत्रु नाश, विजय प्राप्ति और जीवन में सफलता के लिए संपर्क करें।
             </p>
             <p className="text-xs text-white/50 mt-3">
               ऑनलाइन हवन बुकिंग की सुविधा उपलब्ध • बगलामुखी पूजा सेवा • Baglamukhi pandit near me service available
@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-white/15 pt-6 text-center text-xs space-y-2">
-          <p>© 2026 माँ बगलामुखी हवन सेवा। सर्वाधिकार सुरक्षित। 🙏</p>
+          <p>© 2026 माँ बगलामुखी नलखेड़ा हवन। सर्वाधिकार सुरक्षित। 🙏</p>
           <p className="text-white/50">
             वेबसाइट निर्माता: <span className="text-white/70 font-semibold">Kunj Khandelwal</span> •{" "}
             <a href="tel:+917024609027" className="hover:text-yellow-400 transition-colors">📞 7024609027</a>

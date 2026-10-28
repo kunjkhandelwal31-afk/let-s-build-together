@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Clock, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import type { Havan } from "@/data/havans";
 
 const HavanCard = ({ havan }: { havan: Havan }) => {
@@ -26,12 +26,6 @@ const HavanCard = ({ havan }: { havan: Havan }) => {
               {havan.name}
             </h3>
           </Link>
-          <span
-            className="text-xs md:text-sm font-semibold px-3 py-1.5 rounded-lg text-golden-outline tracking-wide whitespace-nowrap"
-            style={{ background: 'rgba(139,0,0,0.55)', color: '#FFD700', border: '1px solid rgba(255,215,0,0.4)' }}
-          >
-            संपर्क करें विवरण हेतु
-          </span>
         </div>
         <p className="text-sm text-white mb-4 leading-relaxed flex-1">
           {havan.description}
@@ -50,14 +44,6 @@ const HavanCard = ({ havan }: { havan: Havan }) => {
             ))}
           </div>
 
-          {havan.duration && (
-            <ul className="space-y-1.5 rounded-lg p-3" style={{ background: 'rgba(139,0,0,0.45)', border: '1px solid rgba(255,215,0,0.3)' }}>
-              <li className="flex items-center gap-2 text-sm text-white">
-                <Clock className="h-4 w-4 flex-shrink-0" style={{ color: '#FFD700' }} />
-                <span>अवधि: {havan.duration}</span>
-              </li>
-            </ul>
-          )}
 
           <div className="space-y-2 pt-3" style={{ borderTop: '1px solid rgba(255,215,0,0.25)' }}>
             <Link
