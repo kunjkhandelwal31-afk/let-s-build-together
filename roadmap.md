@@ -11,6 +11,8 @@ New brand: **Maa Baglamukhi Nalkheda Havan** · New domain: https://maabaglamukh
 - [x] About slideshow with 3 photos: arrows, dots, swipe, auto-advance, responsive, Hindi alt text
 - [x] Sitemap.xml / robots.txt on new domain; JSON-LD (WebSite/Organization/founder/contact) updated
 - [x] Verified: zero old refs, build OK, Playwright checks (slideshow works, links correct, no ₹ anywhere)
+- [x] Asset fix for Cloudflare Pages deploy: recovered logo + 3 Pandit photos from CDN, stored as real files (public/images/logo-baglamukhi.png; src/assets/pandit-*.webp), removed all .asset.json pointers + __l5e refs, Pandit photos converted to WebP
+
 
 ## Open (needs user/admin action — blockers outside the code)
 - [ ] Domain maabaglamukhinalkhedahavan.com is NOT registered and this workspace account cannot buy domains → a workspace admin must buy it (Project Settings → Domains → Buy new domain), or the user connects a domain they already own; then set it as primary so the old domain 301-redirects.
