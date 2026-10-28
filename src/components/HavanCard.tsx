@@ -30,7 +30,7 @@ const HavanCard = ({ havan }: { havan: Havan }) => {
             className="text-xs md:text-sm font-semibold px-3 py-1.5 rounded-lg text-golden-outline tracking-wide whitespace-nowrap"
             style={{ background: 'rgba(139,0,0,0.55)', color: '#FFD700', border: '1px solid rgba(255,215,0,0.4)' }}
           >
-            {havan.dakshina ? `दक्षिणा: ${havan.dakshina}` : "संपर्क करें"}
+            संपर्क करें विवरण हेतु
           </span>
         </div>
         <p className="text-sm text-white mb-4 leading-relaxed flex-1">
@@ -50,20 +50,12 @@ const HavanCard = ({ havan }: { havan: Havan }) => {
             ))}
           </div>
 
-          {(havan.duration || havan.dakshina) && (
+          {havan.duration && (
             <ul className="space-y-1.5 rounded-lg p-3" style={{ background: 'rgba(139,0,0,0.45)', border: '1px solid rgba(255,215,0,0.3)' }}>
-              {havan.duration && (
-                <li className="flex items-center gap-2 text-sm text-white">
-                  <Clock className="h-4 w-4 flex-shrink-0" style={{ color: '#FFD700' }} />
-                  <span>अवधि: {havan.duration}</span>
-                </li>
-              )}
-              {havan.dakshina && (
-                <li className="flex items-center gap-2 text-sm text-white">
-                  <Leaf className="h-4 w-4 flex-shrink-0" style={{ color: '#FFD700' }} />
-                  <span>दक्षिणा: {havan.dakshina}</span>
-                </li>
-              )}
+              <li className="flex items-center gap-2 text-sm text-white">
+                <Clock className="h-4 w-4 flex-shrink-0" style={{ color: '#FFD700' }} />
+                <span>अवधि: {havan.duration}</span>
+              </li>
             </ul>
           )}
 

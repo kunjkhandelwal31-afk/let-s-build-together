@@ -70,7 +70,7 @@ const HavanDetailPage = () => {
               className="text-sm md:text-base font-semibold px-4 py-2 rounded-lg tracking-wide whitespace-nowrap text-golden-outline"
               style={{ background: '#F57C00', color: '#FFD700', border: '1px solid rgba(255,215,0,0.4)', boxShadow: '0 4px 12px rgba(0,0,0,0.25)' }}
             >
-              {havan.dakshina ? `दक्षिणा: ${havan.dakshina}` : "संपर्क करें विवरण हेतु"}
+              संपर्क करें विवरण हेतु
             </span>
           </div>
         </div>
@@ -94,11 +94,6 @@ const HavanDetailPage = () => {
                 {havan.duration && (
                   <span className="inline-flex items-center gap-2 bg-card border border-border rounded-lg px-4 py-2 text-sm text-foreground">
                     <Clock className="h-4 w-4 text-accent" /> अवधि: <strong>{havan.duration}</strong>
-                  </span>
-                )}
-                {havan.dakshina && (
-                  <span className="inline-flex items-center gap-2 bg-card border border-border rounded-lg px-4 py-2 text-sm text-foreground">
-                    🪔 दक्षिणा: <strong>{havan.dakshina}</strong>
                   </span>
                 )}
               </div>
@@ -247,9 +242,9 @@ const HavanDetailPage = () => {
           <div className="space-y-6">
             <div className="bg-card border-2 border-primary/30 rounded-xl p-6 shadow-golden md:sticky md:top-24">
               <div className="text-center mb-4">
-                <div className="text-sm text-muted-foreground mb-1">{havan.dakshina ? "दक्षिणा" : "पूजा विवरण"}</div>
+                <div className="text-sm text-muted-foreground mb-1">पूजा विवरण</div>
                 <div className="text-lg font-bold text-gradient-golden">
-                  {havan.dakshina || "संपर्क करें विवरण हेतु"}
+                  संपर्क करें विवरण हेतु
                 </div>
                 {havan.duration && (
                   <div className="text-xs text-muted-foreground mt-1">अवधि: {havan.duration}</div>
