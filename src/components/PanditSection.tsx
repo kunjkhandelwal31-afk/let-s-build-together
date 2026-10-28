@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Award, CheckCircle, Shield, Star, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import ContactStrip from "@/components/ContactStrip";
-import slideAarti from "@/assets/pandit-havan-aarti.jpg.asset.json";
-import slideSankalp from "@/assets/pandit-sankalp.jpg.asset.json";
-import slideDhyan from "@/assets/pandit-dhyan.jpg.asset.json";
+import slideAarti from "@/assets/pandit-havan-aarti.webp";
+import slideSankalp from "@/assets/pandit-sankalp.webp";
+import slideDhyan from "@/assets/pandit-dhyan.webp";
 
 const slides = [
   {
