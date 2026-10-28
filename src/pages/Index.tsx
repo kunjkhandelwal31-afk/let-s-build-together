@@ -54,10 +54,10 @@ const Index = () => {
       <Helmet>
         <title>Maa Baglamukhi Nalkheda Havan | Pandit Rahul Sharma</title>
         <meta name="description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
-        <meta property="og:title" content="Maa Baglamukhi Nalkheda Havan" />
+        <meta property="og:title" content="Maa Baglamukhi Nalkheda Havan | Pandit Rahul Sharma" />
         <meta property="og:description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
         <meta property="og:url" content="https://maabaglamukhinalkhedahavan.com/" />
-        <meta name="twitter:title" content="Maa Baglamukhi Nalkheda Havan" />
+        <meta name="twitter:title" content="Maa Baglamukhi Nalkheda Havan | Pandit Rahul Sharma" />
         <meta name="twitter:description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
 
         <link rel="canonical" href="https://maabaglamukhinalkhedahavan.com/" />
@@ -79,7 +79,7 @@ const Index = () => {
             Maa Baglamukhi Nalkheda Havan
           </h1>
           <p className="text-white/85 mt-3 text-sm md:text-base">
-            Maa Baglamukhi Nalkheda Havan की आधिकारिक वेबसाइट पर आपका स्वागत है। यहाँ Maa Baglamukhi Nalkheda Havan से संबंधित
+            माँ बगलामुखी नलखेड़ा हवन की आधिकारिक वेबसाइट पर आपका स्वागत है। यहाँ माँ बगलामुखी की आराधना से जुड़ी
             धार्मिक सेवाओं, हवन एवं अनुष्ठानों की जानकारी और उपलब्ध बुकिंग सुविधा प्राप्त की जा सकती है।
           </p>
         </div>
@@ -105,7 +105,7 @@ const Index = () => {
             जिससे आप अपनी आवश्यकता के अनुसार उपयुक्त अनुष्ठान चुन सकें।
           </p>
           <h2 className="text-2xl md:text-3xl font-bold pt-2" style={{ color: '#FFD700' }}>
-            Maa Baglamukhi Nalkheda Havan से हवन एवं अनुष्ठान
+            हवन एवं अनुष्ठान सेवाएँ
           </h2>
           <p className="text-white/85 leading-relaxed">
             हवन एवं अनुष्ठान यजमान के नाम, गोत्र एवं धर्मसम्मत संकल्प के साथ सम्पन्न कराए जाते हैं। सेवा से जुड़ी पूरी
@@ -117,7 +117,7 @@ const Index = () => {
             <li><Link to="/havan/vijay-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी विशेष हवन</Link></li>
             <li><Link to="/havan/dhan-prapti" className="underline" style={{ color: '#FFD700' }}>माँ बगलामुखी महाविशेष हवन</Link></li>
             <li><Link to="/havan/lal-mirch" className="underline" style={{ color: '#FFD700' }}>लाल मिर्च विशेष हवन</Link></li>
-            <li><Link to="/anushthan" className="underline" style={{ color: '#FFD700' }}>Maa Baglamukhi Nalkheda Havan — मंत्र-जप अनुष्ठान</Link></li>
+            <li><Link to="/anushthan" className="underline" style={{ color: '#FFD700' }}>मंत्र-जप अनुष्ठान — पंडित राहुल शर्मा</Link></li>
           </ul>
         </div>
       </section>
