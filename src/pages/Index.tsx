@@ -52,13 +52,13 @@ const Index = () => {
   return (
     <main className="pb-16">
       <Helmet>
-        <title>Maa Baglamukhi Nalkheda Havan | Official Website</title>
-        <meta name="description" content="Maa Baglamukhi Nalkheda Havan के लिए आधिकारिक वेबसाइट। Maa Baglamukhi Nalkheda Havan से जुड़ी पूजा, हवन और अनुष्ठान सेवाओं की जानकारी एवं बुकिंग सुविधा प्राप्त करें।" />
+        <title>Maa Baglamukhi Nalkheda Havan | Pandit Rahul Sharma</title>
+        <meta name="description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
         <meta property="og:title" content="Maa Baglamukhi Nalkheda Havan" />
-        <meta property="og:description" content="Maa Baglamukhi Nalkheda Havan की आधिकारिक वेबसाइट।" />
+        <meta property="og:description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
         <meta property="og:url" content="https://maabaglamukhinalkhedahavan.com/" />
         <meta name="twitter:title" content="Maa Baglamukhi Nalkheda Havan" />
-        <meta name="twitter:description" content="Maa Baglamukhi Nalkheda Havan की आधिकारिक वेबसाइट।" />
+        <meta name="twitter:description" content="माँ बगलामुखी नलखेड़ा हवन, पूजा एवं अनुष्ठान की जानकारी प्राप्त करें। पंडित राहुल शर्मा से हवन, मंत्र-जप एवं धार्मिक अनुष्ठानों की बुकिंग के लिए संपर्क करें।" />
 
         <link rel="canonical" href="https://maabaglamukhinalkhedahavan.com/" />
         <script type="application/ld+json">{JSON.stringify({
@@ -485,7 +485,7 @@ const Index = () => {
                 a: "हवन / अनुष्ठान के बाद सम्पूर्ण विधि का video और photo proof, सिद्ध प्रसाद, माँ बगलामुखी का अभिमंत्रित यंत्र और ब्राह्मणों का आशीर्वाद — सब कुछ कूरियर द्वारा आपके घर पहुँचाया जाता है।",
               },
               {
-                q: "Best pandit for Baglamukhi Havan कहाँ मिलेंगे?",
+                q: "Baglamukhi Havan के लिए अनुभवी पंडित कहाँ मिलेंगे?",
                 a: "नलखेड़ा (जिला आगर मालवा, मध्यप्रदेश) के सिद्ध बगलामुखी मंदिर के विद्वान एवं अनुभवी पंडित हमारी सेवा में हैं। 247+ संतुष्ट साधकों ने 4.9/5 की rating दी है।",
               },
             ].map((f) => (
