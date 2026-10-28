@@ -16,12 +16,12 @@ const HavanDetailPage = () => {
   }, [id]);
 
   const seoTitles: Record<string, string> = {
-    shanti: "Maa Baglamukhi General Havan | Best Pandit",
-    "vijay-prapti": "Maa Baglamukhi Special Havan | Best Pandit",
-    "dhan-prapti": "Maa Baglamukhi Mahavishesh Havan | Best Pandit",
-    "lal-mirch": "Maa Baglamukhi Lal Mirchi Havan | Best Pandit",
-    "shatru-nash": "Maa Baglamukhi Shatru Nash Havan | Best Pandit",
-    "sarv-karya-siddhi": "Maa Baglamukhi Sarv Karya Siddhi Havan | Best Pandit",
+    shanti: "Maa Baglamukhi General Havan | Pandit Rahul Sharma",
+    "vijay-prapti": "Maa Baglamukhi Special Havan | Pandit Rahul Sharma",
+    "dhan-prapti": "Maa Baglamukhi Mahavishesh Havan | Pandit Rahul Sharma",
+    "lal-mirch": "Maa Baglamukhi Lal Mirchi Havan | Pandit Rahul Sharma",
+    "shatru-nash": "Maa Baglamukhi Shatru Nash Havan | Pandit Rahul Sharma",
+    "sarv-karya-siddhi": "Maa Baglamukhi Sarv Karya Siddhi Havan | Pandit Rahul Sharma",
   };
 
   if (!havan) return <NotFound />;
@@ -29,7 +29,7 @@ const HavanDetailPage = () => {
   return (
     <main className="pb-16">
       <Seo
-        title={seoTitles[havan.id] ?? `${havan.name} | Maa Baglamukhi Best Pandit`}
+        title={seoTitles[havan.id] ?? `${havan.name} | Maa Baglamukhi Nalkheda Havan`}
         description={`${havan.description} नलखेड़ा (म.प्र.) के अनुभवी पंडितों द्वारा ${havan.name} की विधि, अवधि एवं बुकिंग की पूरी जानकारी।`.slice(0, 158)}
         path={`/havan/${havan.id}`}
         type="article"

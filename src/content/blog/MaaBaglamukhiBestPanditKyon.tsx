@@ -8,7 +8,7 @@ const MaaBaglamukhiBestPanditKyon = () => (
   <>
     <p>
       जब जीवन में शत्रु बाधा, कोर्ट केस, व्यापार की रुकावट अथवा तांत्रिक प्रभाव की आशंका होती है,
-      तब श्रद्धालु <strong style={{ color: '#FFD700' }}>maa baglamukhi best pandit</strong> की खोज करते हैं।
+      तब श्रद्धालु <strong style={{ color: '#FFD700' }}>maa baglamukhi nalkheda havan</strong> की खोज करते हैं।
       यहाँ हम बताते हैं कि एक अनुभवी बगलामुखी पंडित की पहचान कैसे होती है और
       माँ बगलामुखी की उपासना में विधि की शुद्धता इतनी महत्वपूर्ण क्यों है।
     </p>

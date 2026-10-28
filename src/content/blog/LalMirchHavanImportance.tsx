@@ -53,7 +53,7 @@ const LalMirchHavanImportance = () => (
     <p>
       यदि आपका जीवन अकारण समस्याओं से घिरा है तो लाल मिर्च हवन एक बार अवश्य करवाएँ।{" "}
       <Link to="/havan-booking" className="underline" style={{ color: '#FFD700' }}>Online booking</Link> या{" "}
-      WhatsApp +91 90094 51897 पर तुरंत संपर्क करें।
+      WhatsApp +91 70246 09027 पर तुरंत संपर्क करें।
     </p>
   </>
 );

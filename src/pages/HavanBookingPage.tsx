@@ -49,7 +49,7 @@ const HavanBookingPage = () => (
           Booking कैसे करें — Simple Booking Process
         </h2>
         <ol className="list-decimal pl-6 space-y-2 text-white/85 mb-4">
-          <li>नीचे form भरें या <strong>+91 90094 51897</strong> पर कॉल/WhatsApp करें</li>
+          <li>नीचे form भरें या <strong>+91 70246 09027</strong> पर कॉल/WhatsApp करें</li>
           <li>हमारी टीम 24 घंटे में आपसे संपर्क करेगी</li>
           <li>अनुष्ठान की तिथि, सामग्री एवं विधि finalise करें</li>
           <li>50% advance payment से <strong>booking confirm</strong></li>
@@ -63,7 +63,7 @@ const HavanBookingPage = () => (
         <p className="text-white/85 leading-relaxed mb-4">
           प्रत्येक हवन एवं अनुष्ठान का शुल्क सेवा के प्रकार, अवधि, ब्राह्मणों की संख्या एवं
           सामग्री के अनुसार भिन्न होता है। सटीक विवरण, मुहूर्त एवं मार्गदर्शन हेतु कृपया{" "}
-          <a href="tel:+919009451897" className="underline" style={{ color: '#FFD700' }}>+91 90094 51897</a>{" "}
+          <a href="tel:+917024609027" className="underline" style={{ color: '#FFD700' }}>+91 70246 09027</a>{" "}
           पर कॉल या WhatsApp करें — हमारी टीम 24 घंटे में आपकी परिस्थिति समझकर उचित सुझाव देगी।
         </p>
         <p className="text-white/70 text-sm mb-6">

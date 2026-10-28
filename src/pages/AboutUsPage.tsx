@@ -7,10 +7,10 @@ const AboutUsPage = () => {
   return (
     <>
       <Seo
-        title="About Us | Baglamukhi Best Pandit — पंडित जी परिचय"
+        title="About Us | Maa Baglamukhi Nalkheda Havan — पंडित जी परिचय"
         description="15+ वर्षों का अनुभव — नलखेड़ा (Nalkheda, Agar Malwa, MP) के सिद्ध बगलामुखी मंदिर से Baglamukhi Havan एवं Anushthan सेवा। अनुभवी पंडित जी, 247+ संतुष्ट साधक, India + worldwide booking।"
         path="/about-us"
-        keywords="about baglamukhi pandit, nalkheda pandit, baglamukhi mandir pandit, best pandit for baglamukhi havan, pandit ji credentials"
+        keywords="about baglamukhi pandit, nalkheda pandit, baglamukhi mandir pandit, baglamukhi havan nalkheda, pandit ji credentials"
       />
       <main className="py-14" style={{ background: '#6B0000', color: 'white' }}>
         <article className="container mx-auto px-4 max-w-3xl">

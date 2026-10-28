@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
               <div className="flex items-center gap-3 mb-4">
                 <img
                   src={t.image}
-                  alt={`${t.name} - Baglamukhi Best Pandit भक्त समीक्षा`}
+                  alt={`${t.name} - Maa Baglamukhi Nalkheda Havan भक्त समीक्षा`}
                   loading="lazy"
                   width={64}
                   height={64}

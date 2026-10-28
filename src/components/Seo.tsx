@@ -10,8 +10,8 @@ interface SeoProps {
   breadcrumbs?: { name: string; path: string }[];
 }
 
-const SITE = "https://maabaglamukhibestpandit.com";
-const SITE_NAME = "Baglamukhi Best Pandit";
+const SITE = "https://maabaglamukhinalkhedahavan.com";
+const SITE_NAME = "Maa Baglamukhi Nalkheda Havan";
 
 const Seo = ({ title, description, path, keywords, type = "website", image, breadcrumbs }: SeoProps) => {
   const url = `${SITE}${path}`;

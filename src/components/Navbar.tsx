@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logoAsset.url} alt="Maa Baglamukhi Best Pandit logo — golden Maa mantra in mandala" className="h-9 w-9 rounded-full object-contain" />
+            <img src={logoAsset.url} alt="Maa Baglamukhi Nalkheda Havan logo — golden Maa mantra in mandala" className="h-9 w-9 rounded-full object-contain" />
             <span className="text-lg font-bold" style={{ color: '#FFD700' }}>
               माँ बगलामुखी हवन सेवा
             </span>
@@ -36,12 +36,12 @@ const Navbar = () => {
             <AudioToggle />
             <LanguageToggle />
             <a
-              href="tel:+919009451897"
+              href="tel:+917024609027"
               className="flex items-center gap-1.5 font-semibold text-sm"
               style={{ color: '#FFD700' }}
             >
               <Phone className="h-4 w-4" />
-              +91 90094 51897
+              +91 70246 09027
             </a>
           </div>
 
@@ -64,12 +64,12 @@ const Navbar = () => {
             <AudioToggle />
             <LanguageToggle />
             <a
-              href="tel:+919009451897"
+              href="tel:+917024609027"
               className="ml-3 flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-semibold"
               style={{ background: '#FF8C00', color: '#FFD700' }}
             >
               <Phone className="h-4 w-4" />
-              +91 90094 51897
+              +91 70246 09027
             </a>
           </div>
 
@@ -107,12 +107,12 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="tel:+919009451897"
+              href="tel:+917024609027"
               className="flex items-center gap-2 mx-4 mt-2 px-4 py-2.5 rounded-lg text-sm font-semibold justify-center"
               style={{ background: '#FF8C00', color: '#FFD700' }}
             >
               <Phone className="h-4 w-4" />
-              +91 90094 51897
+              +91 70246 09027
             </a>
             <Link
               to="/admin-login"

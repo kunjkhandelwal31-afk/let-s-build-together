@@ -19,4 +19,4 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-Sitemap: https://maabaglamukhibestpandit.com/sitemap.xml
+Sitemap: https://maabaglamukhinalkhedahavan.com/sitemap.xml
