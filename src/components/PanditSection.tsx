@@ -2,21 +2,21 @@ import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { Award, CheckCircle, Shield, Star, ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import ContactStrip from "@/components/ContactStrip";
-import slideAarti from "@/assets/pandit-havan-aarti.jpg.asset.json";
-import slideSankalp from "@/assets/pandit-sankalp.jpg.asset.json";
-import slideDhyan from "@/assets/pandit-dhyan.jpg.asset.json";
+import slideAarti from "@/assets/pandit-havan-aarti.webp";
+import slideSankalp from "@/assets/pandit-sankalp.webp";
+import slideDhyan from "@/assets/pandit-dhyan.webp";
 
 const slides = [
   {
-    src: slideAarti.url,
+    src: slideAarti,
     alt: "पंडित राहुल शर्मा जी द्वारा माँ बगलामुखी हवन — हवन कुंड में आहुति एवं पवित्र अग्नि-आराधना, नलखेड़ा",
   },
   {
-    src: slideSankalp.url,
+    src: slideSankalp,
     alt: "पंडित राहुल शर्मा जी हवन कुंड के समक्ष माँ बगलामुखी के धर्मसम्मत संकल्प सहित आराधना करते हुए",
   },
   {
-    src: slideDhyan.url,
+    src: slideDhyan,
     alt: "पंडित राहुल शर्मा जी नदी तट पर ध्यान एवं माँ बगलामुखी की उपासना में मग्न",
   },
 ];

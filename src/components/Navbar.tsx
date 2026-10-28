@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import LanguageToggle from "./LanguageToggle";
 import AudioToggle from "./AudioToggle";
-import logoAsset from "@/assets/logo-baglamukhi.png.asset.json";
 import { PHONE_TEL_HREF, PHONE_NUMBER_DISPLAY } from "@/lib/contact";
 
 const navItems = [
@@ -25,7 +24,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logoAsset.url} alt="Maa Baglamukhi Nalkheda Havan logo — golden Maa mantra in mandala" className="h-9 w-9 rounded-full object-contain" />
+            <img src="/images/logo-baglamukhi.png" alt="Maa Baglamukhi Nalkheda Havan logo — golden Maa mantra in mandala" className="h-9 w-9 rounded-full object-contain" />
             <span className="text-lg font-bold" style={{ color: '#FFD700' }}>
               माँ बगलामुखी नलखेड़ा हवन
             </span>
