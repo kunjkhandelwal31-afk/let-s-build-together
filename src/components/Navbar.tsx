@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center gap-2">
             <img src={logoAsset.url} alt="Maa Baglamukhi Nalkheda Havan logo — golden Maa mantra in mandala" className="h-9 w-9 rounded-full object-contain" />
             <span className="text-lg font-bold" style={{ color: '#FFD700' }}>
-              माँ बगलामुखी हवन सेवा
+              माँ बगलामुखी नलखेड़ा हवन
             </span>
           </Link>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import { havans } from "@/data/havans";
-import { Clock, CheckCircle, ArrowRight, Shield, Star, Users, ChevronLeft } from "lucide-react";
+import { CheckCircle, ArrowRight, Shield, Star, Users, ChevronLeft } from "lucide-react";
 import NotFound from "./NotFound";
 import ContactStrip from "@/components/ContactStrip";
 import Seo from "@/components/Seo";
@@ -66,12 +66,6 @@ const HavanDetailPage = () => {
                 {havan.description}
               </p>
             </div>
-            <span
-              className="text-sm md:text-base font-semibold px-4 py-2 rounded-lg tracking-wide whitespace-nowrap text-golden-outline"
-              style={{ background: '#F57C00', color: '#FFD700', border: '1px solid rgba(255,215,0,0.4)', boxShadow: '0 4px 12px rgba(0,0,0,0.25)' }}
-            >
-              संपर्क करें विवरण हेतु
-            </span>
           </div>
         </div>
       </section>
@@ -90,13 +84,6 @@ const HavanDetailPage = () => {
                 {havan.purpose && <p>{havan.purpose}</p>}
               </div>
 
-              <div className="mt-5 flex flex-wrap gap-3">
-                {havan.duration && (
-                  <span className="inline-flex items-center gap-2 bg-card border border-border rounded-lg px-4 py-2 text-sm text-foreground">
-                    <Clock className="h-4 w-4 text-accent" /> अवधि: <strong>{havan.duration}</strong>
-                  </span>
-                )}
-              </div>
             </section>
 
             {/* What is it */}
@@ -241,16 +228,6 @@ const HavanDetailPage = () => {
           {/* Right sidebar - Pricing & CTA */}
           <div className="space-y-6">
             <div className="bg-card border-2 border-primary/30 rounded-xl p-6 shadow-golden md:sticky md:top-24">
-              <div className="text-center mb-4">
-                <div className="text-sm text-muted-foreground mb-1">पूजा विवरण</div>
-                <div className="text-lg font-bold text-gradient-golden">
-                  संपर्क करें विवरण हेतु
-                </div>
-                {havan.duration && (
-                  <div className="text-xs text-muted-foreground mt-1">अवधि: {havan.duration}</div>
-                )}
-              </div>
-
               <div className="bg-accent/10 text-accent-foreground text-center text-sm font-semibold py-2 rounded-lg mb-4">
                 ⭐ पूर्ण विधि — शास्त्रोक्त सामग्री सहित
               </div>
