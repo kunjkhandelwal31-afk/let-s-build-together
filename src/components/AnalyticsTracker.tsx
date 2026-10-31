@@ -51,7 +51,7 @@ const AnalyticsTracker = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, [pathname]);
 
-  // Global click delegation: track call / WhatsApp / Instagram / generic CTA buttons
+  // Global click delegation: track call / WhatsApp / YouTube / generic CTA buttons
   useEffect(() => {
     const handler = (e: MouseEvent) => {
       const target = e.target as HTMLElement | null;
@@ -69,8 +69,8 @@ const AnalyticsTracker = () => {
           trackEvent("whatsapp_click", { link_url: href, link_text: label, page_path: pathname });
           return;
         }
-        if (href.includes("instagram.com")) {
-          trackEvent("instagram_click", { link_url: href, link_text: label, page_path: pathname });
+        if (href.includes("youtube.com") || href.includes("youtu.be")) {
+          trackEvent("youtube_click", { link_url: href, link_text: label, page_path: pathname });
           return;
         }
       }

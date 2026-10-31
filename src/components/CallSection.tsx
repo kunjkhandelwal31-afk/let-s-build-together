@@ -1,6 +1,6 @@
-import { Phone, Instagram } from "lucide-react";
+import { Phone, Youtube } from "lucide-react";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
-import { PHONE_TEL_HREF, PHONE_NUMBER_DISPLAY, WHATSAPP_URL, INSTAGRAM_URL } from "@/lib/contact";
+import { PHONE_TEL_HREF, PHONE_NUMBER_DISPLAY, WHATSAPP_URL, YOUTUBE_URL } from "@/lib/contact";
 
 const CallSection = () => {
   return (
@@ -35,14 +35,13 @@ const CallSection = () => {
             WhatsApp
           </a>
           <a
-            href={INSTAGRAM_URL}
+            href={YOUTUBE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:scale-105 transition-transform text-white"
-            style={{ background: 'linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)' }}
+            className="flex items-center gap-3 bg-[#FF0000] px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:scale-105 transition-transform text-white"
           >
-            <Instagram className="h-6 w-6" />
-            Instagram
+            <Youtube className="h-6 w-6" />
+            YouTube
           </a>
         </div>
 

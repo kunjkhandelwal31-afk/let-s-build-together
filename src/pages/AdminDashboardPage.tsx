@@ -734,7 +734,7 @@ const AdminDashboardPage = () => {
           <StatCard icon={MessageCircle} label="WhatsApp" value={eventCounts.whatsapp_click || 0} accent="text-green-500" />
           <StatCard icon={Phone} label="Calls" value={eventCounts.call_click || 0} accent="text-blue-500" />
           <StatCard icon={MousePointerClick} label="Booking views" value={eventCounts.booking_page_view || 0} accent="text-orange-500" />
-          <StatCard icon={Instagram} label="Instagram" value={eventCounts.instagram_click || 0} accent="text-pink-500" />
+          <StatCard icon={Youtube} label="YouTube" value={eventCounts.youtube_click || 0} accent="text-red-500" />
           <StatCard icon={TrendingUp} label="Conversion" value={`${conversionRate}%`} accent="text-emerald-500" />
           <StatCard icon={MousePointerClick} label="Avg scroll" value={`${scrollDepthAvg}%`} />
         </section>

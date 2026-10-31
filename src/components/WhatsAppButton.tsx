@@ -1,6 +1,6 @@
-import { Phone, Instagram } from "lucide-react";
+import { Phone, Youtube } from "lucide-react";
 import WhatsAppIcon from "@/components/icons/WhatsAppIcon";
-import { PHONE_TEL_HREF, PHONE_NUMBER_DISPLAY, WHATSAPP_URL, INSTAGRAM_URL } from "@/lib/contact";
+import { PHONE_TEL_HREF, PHONE_NUMBER_DISPLAY, WHATSAPP_URL, YOUTUBE_URL } from "@/lib/contact";
 import { trackEvent } from "@/lib/analytics";
 
 const WhatsAppButton = () => {
@@ -26,14 +26,13 @@ const WhatsAppButton = () => {
         <WhatsAppIcon className="h-14 w-14" />
       </a>
       <a
-        href={INSTAGRAM_URL}
+        href={YOUTUBE_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center justify-center w-14 h-14 rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all text-white"
-        aria-label="Instagram पर फॉलो करें"
-        style={{ background: 'linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888)' }}
+        className="flex items-center justify-center w-14 h-14 bg-[#FF0000] hover:bg-[#d90000] rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all text-white"
+        aria-label="YouTube चैनल देखें"
       >
-        <Instagram className="h-7 w-7" />
+        <Youtube className="h-7 w-7" />
       </a>
     </div>
   );
