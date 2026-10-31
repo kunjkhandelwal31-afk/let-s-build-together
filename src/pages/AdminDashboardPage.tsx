@@ -9,7 +9,7 @@ import {
   MousePointerClick,
   Phone,
   MessageCircle,
-  Instagram,
+  Youtube,
   Calendar,
   Smartphone,
   Monitor,
