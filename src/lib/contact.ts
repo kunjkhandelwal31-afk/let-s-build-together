@@ -8,5 +8,5 @@ export const WHATSAPP_URL = `https://wa.me/917024609027?text=${encodeURIComponen
   WHATSAPP_MESSAGE
 )}`;
 
-export const INSTAGRAM_URL =
-  "https://www.instagram.com/baglamukhi_sadhak123/";
+export const YOUTUBE_URL =
+  "https://youtube.com/@maabaglamukhinalkhedahawan?si=DplDd1rOrG9t-ybI";
